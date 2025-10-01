@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap an Emotion you feel right now"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"/>
+
+    <Button
+        android:id="@+id/button_sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sad"/>
+
+    <Button
+        android:id="@+id/button_angry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angry"/>
+
+    <Button
+        android:id="@+id/button_excited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excited" />
+
+    <Button
+        android:id="@+id/button_view_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Logs"/>
+
+    <Button
+        android:id="@+id/button_view_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Summary"/>
+
+</LinearLayout>
